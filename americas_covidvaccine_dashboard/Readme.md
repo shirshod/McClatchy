@@ -1,6 +1,6 @@
 ## The Americas COVID Dashboard
 
-By: Rosmerry Izaguire, Shirsho Dasgupta and Albert Franquiz (2021)
+By: Rosmery Izaguire, Shirsho Dasgupta and Albert Franquiz (2021)
 
 ### Notes:
 
