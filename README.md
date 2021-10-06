@@ -19,6 +19,6 @@ By: Shirsho Dasgupta
 
 
 ### 4. Zipcode Demographics Generator:
-The code imports a spreadsheet with a list of zipcodes (in any column) and stores the some relevant demographic and economic data of those places. 
+The code imports a spreadsheet with a list of zipcodes (in any column) and stores relevant demographic and economic data of those places. 
 
 By: Shirsho Dasgupta
