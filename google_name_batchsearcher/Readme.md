@@ -2,7 +2,7 @@
 
 By: Shirsho Dasgupta (2021) 
 
-The Miami Herald often works on investigations based on corporate records — sometimes public, at other times leaked. These records often have — or reporters can make it themselves — lists of companies, their owners and/or directors and other officers. 
+The Miami Herald frequently works on investigations based on corporate records — sometimes public, at other times leaked. These records often have — or reporters can make it themselves — lists of companies, their owners and/or directors and other officers. 
 
 This project was initiated to automate an initial search on who these people are. 
 
