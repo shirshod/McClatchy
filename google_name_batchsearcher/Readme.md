@@ -4,9 +4,9 @@ By: Shirsho Dasgupta (2021)
 
 The Miami Herald frequently works on investigations based on corporate records — sometimes public, at other times leaked. These records often have — or reporters can make it themselves — lists of companies, their owners and/or directors and other officers. 
 
-This project was initiated to automate an initial search on who these people are. 
+This project automates an initial search on who these people are. 
 
-The code imports a spreadsheet with a list of names then searches for them in Google. It then extracts the first few lines about that person that come up as flashcard in a regular Google search.  
+The code imports a spreadsheet with a list of names and then searches for them in Google. It then extracts the first few lines about that person that come up as flashcard in a regular Google search.  
 
 A short example is attached. 
 
