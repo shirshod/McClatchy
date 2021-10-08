@@ -13,7 +13,7 @@ By: Shirsho Dasgupta
 
 
 ### Google Names Batch Searcher:
-The code imports a spreadsheet with a list of names (in any column), runs each name onto Google and stores the resulting details of that person that Google generally displays in a flashcard. 
+The code imports a spreadsheet with a list of names (in any column), runs each name onto Google and stores the resulting details of that person that Google generally displays in a flashcard. Ideal for running initial searches on spreadsheets with corporate records. 
 
 By: Shirsho Dasgupta
 
