@@ -18,6 +18,12 @@ The code imports a spreadsheet with a list of names (in any column), runs each n
 By: Shirsho Dasgupta
 
 
+### State of the Union (2009-2022) — Sentiment Analysis:
+The code reads the text of every State of the Union speech from 2009 to 2022 and performs sentiment analysis on them using the NRC Word-Emotion Association Lexicon (EmoLex).
+
+By: Shirsho Dasgupta
+
+
 ### Zipcode Demographics Generator:
 The code imports a spreadsheet with a list of zipcodes (in any column) and stores relevant demographic and economic data of those places. 
 
