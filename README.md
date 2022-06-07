@@ -1,30 +1,32 @@
-# Contents: 
+# State of the Union (1947-2022): Sentiment Analysis and Topic Modeling
 
-### 1. Americas COVID Vaccine Dashboard:
-The code scrapes, COVID cases, deaths, vaccination data from multiple sources and combines them with economic and demographic data of those countries. 
+By: Shirsho Dasgupta (2022)
 
-By: Rosmery Izaguirre, Shirsho Dasgupta and Albert Franquiz
+#### General Notes: 
 
+The Python notebook is too large for Github or NB Viewer to render and moreover contains interactive Altair charts which Github does not render. 
+Download the repo and run it locally on your computer. 
+A view of the notebook in PDF format can be [found here](https://github.com/shirshod/mcclatchy/blob/main/sotu_analysis/sotu_analysis.pdf).
+The Python code in .py format can be [found here](https://github.com/shirshod/mcclatchy/blob/main/sotu_analysis/sotu_analysis.py).
 
-### 2. Florida Department of Corrections Mortality Data:
-The code scrapes the inmate deaths webpage for the Florida Corrections Department and also goes into the corresponding inmate profile page to record personal data of the inmate.
+#### Notes on Sentiment Analysis: 
 
-By: Shirsho Dasgupta
+The code reads the text of every State of the Union speech (delivered in-person on the Hill) from 1947 to 2022 and performs sentiment analysis on them using the NRC Word-Emotion Association Lexicon (EmoLex). 
 
+The NRC Emotion Lexicon is a list of English words and their associations with eight basic emotions (anger, fear, anticipation, trust, surprise, sadness, joy, and disgust) and two sentiments (negative and positive). The annotations were manually done by crowdsourcing.
 
-### 3. Google Names Batch Searcher:
-The code imports a spreadsheet with a list of names (in any column), runs each name onto Google and stores the resulting details of that person that Google generally displays in a flashcard. Ideal for running initial searches on spreadsheets with corporate records. 
+The code matches the words in the speeches to that of the dictionary then adds up the factor of the emotion. 
 
-By: Shirsho Dasgupta
+Since EmoLex is, at the end of the day, crowdsourced and finite, there might be some words which are outside its scope or some nuances which are not accounted for (the code performs word-to-word comparison). The analysis is always at best an approximation. 
 
+#### Notes on Topic Modeling: 
 
-### 4. State of the Union (2009-2022) — Sentiment Analysis:
-The code reads the text of every State of the Union speech from 2009 to 2022 and performs sentiment analysis on them using the NRC Word-Emotion Association Lexicon (EmoLex).
+The code deploys machine-learning modules on the text of every State of the Union speech (delivered in-person on the Hill) from 1947 to 2022. The algorithm calculates the frequency of each word (controlling for how common they are etc.) and generates topics that were touched on. 
 
-By: Shirsho Dasgupta
+The code uses the Scikitlearn module to compute Non-Negative Matrix Factorization (NMF)/Latent Semantic Indexing (LSI) and Latent Dirichlet Allocation (LDA) methods. It also deploys Gensim to compute the same. 
 
+#### Sources:
 
-### 5. Zipcode Demographics Generator:
-The code imports a spreadsheet with a list of zipcodes (in any column) and stores relevant demographic and economic data of those places. 
+State of the Union [Archived Speeches](https://www.presidency.ucsb.edu/documents/presidential-documents-archive-guidebook/annual-messages-congress-the-state-the-union) at University of California, Santa Barbara.
 
-By: Shirsho Dasgupta
+[NRC Emotion Lexicon](http://saifmohammad.com/WebPages/NRC-Emotion-Lexicon.htm)
