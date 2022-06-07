@@ -1,4 +1,4 @@
-# State of the Union (1947-2022): Sentiment Analysis and Topic Modeling
+# [State of the Union (1947-2022): Sentiment Analysis and Topic Modeling](https://github.com/shirshod/sotu_textanalysis/blob/main/sotu_analysis/sotu_analysis.ipynb)
 
 By: Shirsho Dasgupta (2022)
 
