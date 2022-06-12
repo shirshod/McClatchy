@@ -23,7 +23,7 @@ Since EmoLex is, at the end of the day, crowdsourced and finite, there might be 
 
 The code deploys machine-learning modules on the text of every State of the Union speech (delivered in-person on the Hill) from 1947 to 2022. The algorithm calculates the frequency of each word (controlling for how common they are etc.) and generates topics that were touched on. 
 
-The code uses the Scikitlearn module to compute Non-Negative Matrix Factorization (NMF)/Latent Semantic Indexing (LSI) and Latent Dirichlet Allocation (LDA) methods. It also deploys Gensim to compute the same. 
+The code uses the Scikitlearn module to compute topic models using Non-Negative Matrix Factorization (NMF)/Latent Semantic Indexing (LSI) and Latent Dirichlet Allocation (LDA) methods. It also deploys Gensim to compute the same. 
 
 #### Sources:
 
