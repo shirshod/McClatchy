@@ -6,7 +6,7 @@ By: Shirsho Dasgupta (2022)
 
 The Python notebook is too large for Github or NB Viewer to render and moreover contains interactive Altair charts which Github does not render. 
 Download the repo and run it locally on your computer. 
-A view of the notebook in PDF format can be [found here](https://github.com/shirshod/mcclatchy/blob/main/sotu_analysis/sotu_analysis.pdf).
+A view of the notebook in PDF format can be [found here](https://github.com/shirshod/mcclatchy/blob/main/sotu_analysis/sotu_analysis.pdf) (you might need to refresh the page a couple times).
 The Python code in .py format can be [found here](https://github.com/shirshod/mcclatchy/blob/main/sotu_analysis/sotu_analysis.py).
 
 #### Notes on Sentiment Analysis: 
